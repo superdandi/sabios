@@ -13,8 +13,14 @@ export default function Hero() {
           <img
             src="/sabios/logo-sabios.svg"
             alt="SABIOS"
-            className="h-40 md:h-52 mx-auto mb-8"
+            className="h-36 md:h-44 mx-auto mb-6"
           />
+          <h1 className="font-heading text-5xl md:text-7xl font-bold text-accent tracking-[0.15em] mb-2">
+            SABIOS
+          </h1>
+          <p className="text-text-muted text-sm md:text-base tracking-[0.3em] uppercase mb-6">
+            Pizzería
+          </p>
           <p className="text-text-muted text-lg md:text-xl max-w-2xl mx-auto mb-4 font-sans">
             Pizza artesanal por pedazos · Completos para retiro
           </p>

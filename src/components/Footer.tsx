@@ -6,7 +6,10 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <span className="font-heading text-xl font-bold text-accent tracking-wider">SABIOS</span>
+            <div className="flex items-center gap-2 mb-2">
+              <img src="/sabios/logo-sabios.svg" alt="" className="h-7 w-auto" />
+              <span className="font-heading text-xl font-bold text-accent tracking-wider">SABIOS</span>
+            </div>
             <p className="text-text-muted text-sm mt-2 leading-relaxed">
               Pizza por pedazos y completos para retiro.
               <br />
