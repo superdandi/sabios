@@ -20,8 +20,8 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <a href="#hero" className="flex items-center gap-2">
-            <img src="/sabios/logo-sabios.svg" alt="" className="h-7 w-auto" />
-            <span className="font-heading text-lg font-bold text-accent tracking-wider">SABIOS</span>
+            <img src="/sabios/logo-icon.svg" alt="" className="h-8 w-auto" />
+            <span className="font-heading text-lg font-bold text-accent tracking-wider">SABIO</span>
           </a>
 
           <div className="hidden md:flex items-center gap-1">

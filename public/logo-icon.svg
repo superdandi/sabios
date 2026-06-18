@@ -1,9 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 300" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" fill="none">
   <path d="M 35,35 Q 100,-10 165,35 L 100,220 Z" fill="#e16932"/>
   <circle cx="70" cy="55" r="7" fill="#1c110d"/>
   <circle cx="125" cy="60" r="6" fill="#1c110d"/>
   <circle cx="95" cy="90" r="7" fill="#1c110d"/>
   <circle cx="80" cy="130" r="5" fill="#1c110d"/>
   <circle cx="115" cy="110" r="6" fill="#1c110d"/>
-  <text x="100" y="275" text-anchor="middle" font-family="Oswald, sans-serif" font-size="48" font-weight="600" fill="#e16932" letter-spacing="6">SABIO</text>
 </svg>
