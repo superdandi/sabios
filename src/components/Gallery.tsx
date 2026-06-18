@@ -11,8 +11,8 @@ export default function Gallery() {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <AnimateOnScroll>
           <div className="text-center mb-16">
-            <span className="text-accent font-accent text-xl">En imágenes</span>
-            <h2 className="font-heading text-4xl md:text-5xl font-bold text-text mt-2 tracking-tight">
+            <span className="text-brand-orange font-accent text-xl">En imágenes</span>
+            <h2 className="font-heading text-4xl md:text-5xl font-bold text-text-primary mt-2 tracking-tight">
               Galería
             </h2>
             <p className="text-text-muted max-w-xl mx-auto mt-4">
@@ -24,11 +24,11 @@ export default function Gallery() {
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {placeholders.map((i) => (
             <AnimateOnScroll key={i}>
-              <div className="glass-card-warm aspect-square flex items-center justify-center group cursor-pointer hover:shadow-[0_0_20px_rgba(225,105,50,0.1)] transition-all duration-300">
+              <div className="glass-card-solid aspect-square flex items-center justify-center group cursor-pointer orange-glow">
                 <div className="text-center">
                   <div className="w-16 h-16 mx-auto mb-2 rounded-full bg-white/5 flex items-center justify-center">
                     <svg
-                      className="w-8 h-8 text-accent/40"
+                      className="w-8 h-8 text-brand-orange/40"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -41,7 +41,7 @@ export default function Gallery() {
                       />
                     </svg>
                   </div>
-                  <span className="text-text-muted/40 text-xs">Foto próximamente</span>
+                  <span className="text-text-muted-soft text-xs">Foto próximamente</span>
                 </div>
               </div>
             </AnimateOnScroll>

@@ -10,8 +10,8 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <AnimateOnScroll>
             <div>
-              <span className="text-accent font-accent text-xl">Nuestra historia</span>
-              <h2 className="font-heading text-4xl md:text-5xl font-bold text-text mt-2 tracking-tight">
+              <span className="text-brand-orange font-accent text-xl">Nuestra historia</span>
+              <h2 className="font-heading text-4xl md:text-5xl font-bold text-text-primary mt-2 tracking-tight">
                 Conoce SABIOS
               </h2>
               <div className="mt-6 space-y-4 text-text-muted leading-relaxed">
@@ -26,7 +26,7 @@ export default function About() {
                     href="https://www.instagram.com/eruditos"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-accent hover:underline"
+                    className="text-brand-orange hover:underline"
                   >
                     @eruditos
                   </a>
@@ -43,35 +43,35 @@ export default function About() {
           </AnimateOnScroll>
 
           <AnimateOnScroll>
-            <div className="glass-card-warm p-8">
-              <h3 className="font-heading text-2xl font-semibold text-text mb-4">
+            <div className="glass-card p-6">
+              <h3 className="font-heading text-2xl font-semibold text-text-primary mb-4">
                 Hecho en Talca
               </h3>
               <div className="space-y-4 text-text-muted text-sm">
                 <div className="flex items-start gap-3">
-                  <div className="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center shrink-0">
-                    <span className="text-accent text-sm font-bold">01</span>
+                  <div className="w-8 h-8 rounded-full bg-brand-orange/10 flex items-center justify-center shrink-0">
+                    <span className="text-brand-orange text-sm font-bold">01</span>
                   </div>
                   <div>
-                    <span className="text-text font-medium">Masa artesanal</span>
+                    <span className="text-text-primary font-medium">Masa artesanal</span>
                     <p className="mt-1">Fermentación lenta y preparación diaria.</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center shrink-0">
-                    <span className="text-accent text-sm font-bold">02</span>
+                  <div className="w-8 h-8 rounded-full bg-brand-orange/10 flex items-center justify-center shrink-0">
+                    <span className="text-brand-orange text-sm font-bold">02</span>
                   </div>
                   <div>
-                    <span className="text-text font-medium">Ingredientes frescos</span>
+                    <span className="text-text-primary font-medium">Ingredientes frescos</span>
                     <p className="mt-1">Seleccionados con cuidado, sin atajos.</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center shrink-0">
-                    <span className="text-accent text-sm font-bold">03</span>
+                  <div className="w-8 h-8 rounded-full bg-brand-orange/10 flex items-center justify-center shrink-0">
+                    <span className="text-brand-orange text-sm font-bold">03</span>
                   </div>
                   <div>
-                    <span className="text-text font-medium">Retiro en local</span>
+                    <span className="text-text-primary font-medium">Retiro en local</span>
                     <p className="mt-1">Listo cuando tú quieras, siempre recién hecho.</p>
                   </div>
                 </div>
